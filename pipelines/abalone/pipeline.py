@@ -326,5 +326,5 @@ def get_pipeline(
         steps=[step_process, step_train, step_eval, step_cond],
         sagemaker_session=pipeline_session,
     )
-    # Run pipeline for demo live
+    # Run pipeline for demo
     return pipeline
