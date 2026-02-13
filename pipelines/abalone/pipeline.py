@@ -326,5 +326,5 @@ def get_pipeline(
         steps=[step_process, step_train, step_eval, step_cond],
         sagemaker_session=pipeline_session,
     )
-    # Run pipeline for demo for github
+    # Run pipeline for demo for github with deployment permission
     return pipeline
